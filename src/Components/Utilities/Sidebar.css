@@ -1,0 +1,66 @@
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    min-width: 250px;
+    padding: 20px 20px;
+    /* box-shadow: 0 0 6px hsl(210 14% 90%); */
+    background-color: #FFFFFF;
+  }
+
+  .links{
+    margin-top: 50px;
+  }
+
+  hr{
+    height: 0.5px;
+    /* border-radius: 2px; */
+    background-color: #646464;
+  }
+
+  .links a{
+    text-decoration: none;
+    display: flex;
+    align-items: cover;
+    cursor: pointer;
+    padding: 0 20px;
+    border-radius: 6px;
+    color: #646464;
+    font-size: 14px;
+  }
+
+  .links a:hover{
+    /* background-color: #191919; */
+    /* color: #ffffff; */
+    color: #191919;
+    transition: color 10ms ease-out;
+  }
+
+  .links a.active{
+    background-color: #191919;
+    color: #ffffff;
+    transition: color 100ms ease-out;
+  }
+
+  .links .active .Home-1{
+    fill: #ffffff;
+  }
+
+  .links .active .User-1{
+    fill: #ffffff;
+  } 
+
+  .links .active .Abc-1{
+    fill: #ffffff;
+  }
+
+  .links .active .Dashboard-1{
+    fill: #ffffff;
+  }
+
+  .links .active .Cart-1{
+    fill: #ffffff;
+  }
+
+  .links .active .Pie-1{
+    fill: #ffffff;
+  }
